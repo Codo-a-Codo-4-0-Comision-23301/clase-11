@@ -16,7 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Saludo texto="Ale" edad="20"></Saludo>
+        <Saludo texto="Ale" edad="20">
+          <button>Esto es un boton </button>
+          <br></br>
+          <span> Esto es un Span</span>
+        </Saludo>
       </main>
     </>
   )
